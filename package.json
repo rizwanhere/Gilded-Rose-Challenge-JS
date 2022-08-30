@@ -1,0 +1,22 @@
+{
+  "name": "gilded-rose-challenge",
+  "version": "1.0.0",
+  "description": "Gilded Rose kata in Javascript with Mocha",
+  "author":"Rizwan ud din",
+  "email": "rizwan_ud_din@yahoo.com",
+  "scripts": {
+    "test": "mocha",
+    "test:coverage": "nyc mocha"
+  },
+  "keywords": [
+    "kata",
+    "refactor",
+    "gilded-rose"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.1"
+  }
+}
